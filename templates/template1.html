@@ -1,0 +1,153 @@
+<!doctype html>
+
+<title>Test</title> 
+<meta charset=utf-8> 
+
+<a href="/my-link/">Click me</a>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GFW_ML</title>
+</head>
+<body>
+
+	
+<h1 align="center"><font color="green">Customer Health Status</font></h1>
+	
+<p>Select a value for one of the text labels below:</p>
+
+	
+  	<form id="ML-form" action="/execute/data" method="post">
+
+    
+    <ul>
+	  	<li>
+	  	<label for="OEfficiency">Operational Efficiency:</label>
+	  	<select name="OEfficiency" id="OEfficiency">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="AScore">Adoption Score:</label>
+	  	<select name="AScore" id="AScore">
+	    <option value="">Select a value</option>
+	   	<option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="RRisk">Renewal Risk:</label>
+	  	<select name="RRisk" id="RRisk">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="Referencable">Referencable:</label>
+	  	<select name="Referencable" id="Referencable">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="TAgenda">Transformation Agenda:</label>
+	  	<select name="TAgenda" id="TAgenda">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="SSponsorship">Senior Sponsorship:</label>
+	  	<select name="SSponsorship" id="SSponsorship">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="Relationships">Relationships:</label>
+	  	<select name="Relationships" id="Relationships">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+	  	<li>
+	  	<label for="PServices">Partner Services:</label>
+	  	<select name="PServices" id="PServices">
+	    <option value="">Select a value</option>
+	    <option value=1>1</option>
+	    <option value=0>0</option>
+	    <option value=-1>-1</option>
+	    <option value=-2>None</option>
+	  	</select>
+	  	</li><br>
+
+
+	</ul>
+
+
+  	<li>
+         <input type="submit" value="submit" />
+         <input type="reset" value="reset" />
+    </li>
+
+    <output name="x" for="a b"></output>
+
+  </form>
+
+  <script type="text/javascript">
+    document.write(produceMessage())
+  </script>
+  
+  <script type="text/javascript">
+	// document.getElementById("ML-form").onsubmit=function(event){
+	// 	event.preventDefault()
+	// 	var data = {
+	// 		opertational_efficiency:document.getElementById("OEfficiency").value,
+	// 		adoption_score:document.getElementById("AScore").value,
+	// 		renewal_risk:document.getElementById("RRisk").value,
+	// 		referencable:document.getElementById("Referencable").value,
+	// 		transformation_agenda:document.getElementById("TAgenda").value,
+	// 		senior_sponsorship:document.getElementById("SSponsorship").value,
+	// 		relationships:document.getElementById("Relationships").value,
+	// 		opertational_efficiency:document.getElementById("PServices").value
+
+		// }
+		// console.log(data)
+		// return false
+	//}
+
+</script>
+</body>
+</html>
