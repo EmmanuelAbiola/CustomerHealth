@@ -8,7 +8,10 @@
 3.Install Flask
   (http://flask.pocoo.org/docs/0.11/installation/)
 
-4. Navigate to directory and run python server.py in the Terminal
+4.Navigate to directory and run python server.py in the Terminal
+
+
+
 
 
 
