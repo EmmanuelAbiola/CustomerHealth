@@ -5,6 +5,9 @@
 2.Install Tensorflow 
   (https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
 
+3.Install Flask
+  (http://flask.pocoo.org/docs/0.11/installation/)
+
 
 1.How to use repository
 2.How to checkout the code
