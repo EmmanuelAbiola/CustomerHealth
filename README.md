@@ -10,6 +10,8 @@
 
 4.Navigate to directory and run python server.py in the Terminal
 
+5.Enter local:5000 into web-browser
+
 
 
 
