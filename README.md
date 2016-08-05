@@ -1,4 +1,4 @@
-# Building and Running the CustomerHealth Example
+# Building and Running the CustomerHealth(Web App)
 
 1.Download zip folder to your local machine
 
@@ -7,6 +7,10 @@
 
 3.Install Flask
   (http://flask.pocoo.org/docs/0.11/installation/)
+
+4. Navigate to directory and run python server.py in the Terminal
+
+
 
 
 1.How to use repository
