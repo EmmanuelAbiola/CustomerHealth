@@ -8,8 +8,6 @@ import index.html
 
 # Data sets
 TRAINING = "data_nace_training.csv"
-#TRAINING = "iris_training.csv"
-#TEST = "iris_test.csv"
 TEST = "data_nace_test.csv"
 
 # Load datasets.
