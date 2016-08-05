@@ -35,8 +35,8 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 5.Once training is complete how to access health status(cmd line/server)
 
 
-new section
+#To-do Items
 ------------
-To-do items
--prepare and package docker image
--implement drag and drop 
+
+1.prepare and package docker image
+2.implement drag and drop 
