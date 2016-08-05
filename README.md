@@ -36,7 +36,6 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 
 
 #To-do Items
-------------
-
-1.prepare and package docker image
-2.implement drag and drop 
+-----------------------------------
+1.Prepare and package docker image
+2.Implement drag and drop 
