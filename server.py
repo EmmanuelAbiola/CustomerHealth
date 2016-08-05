@@ -6,8 +6,8 @@ import SocketServer
 import cgi
 
 
-from flask import Flask,request, render_template
-app = Flask(__name__)
+from flask import Flask,request, render_template, send_from_directory
+app = Flask(__name__,static_url_path='')
 
 
 
@@ -15,8 +15,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return render_template('template1.html')
-
+  return render_template('index.html')
 
 
 @app.route('/execute/<data>',methods=["POST"])
@@ -64,10 +63,10 @@ def my_link(data):
 
 	print ('Health Status: {}'.format(str(y)))
 
-
+	print y
 
 
   #print request.form
-	return render_template('template1.html', health = y  )
+	return render_template('index.html', health = y  )
 if __name__ == '__main__':
   app.run(debug=True)
