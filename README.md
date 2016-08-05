@@ -1,18 +1,18 @@
 # Building and Running the CustomerHealth(Web App)
 
-1.Download zip folder to your local machine
+1. Download zip folder to your local machine
 
-2.Install Tensorflow 
+2. Install Tensorflow 
   (https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
 
-3.Install Flask
+3. Install Flask
   (http://flask.pocoo.org/docs/0.11/installation/)
 
-4.Navigate to directory and run python server.py in the Terminal
+4. Navigate to directory and run python server.py in the Terminal
 
-5.Enter local:5000 into web-browser
+5. Enter local:5000 into web-browser
 
-
+# Building and Running the CustomerHealth(Terminal)
 
 
 
