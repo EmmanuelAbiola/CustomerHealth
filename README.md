@@ -15,6 +15,8 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 
 5. Enter local:5000 into web-browser
 
+6. Within web-page, the user selects inputs from dropdown menu and then hits submit. A health status is returned to user.
+
 # Building and Running the CustomerHealth(Terminal)
 
 1. Download zip folder to your local machine
@@ -22,6 +24,10 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 2. Install Tensorflow (https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
 
 4. Within Teriminal navigate to directory and run python health.py 
+
+5. Within Terminal the user enters in values and then a health status is returned to user. 
+
+
 
 
 #To-do Items
