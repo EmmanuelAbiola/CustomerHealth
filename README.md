@@ -6,10 +6,17 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 1. Download zip folder to your local machine
 
 2. Install Tensorflow 
+<<<<<<< HEAD
 (https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
 
 3. Install Flask
 (http://flask.pocoo.org/docs/0.11/installation/)
+=======
+  (https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
+
+3. Install Flask
+  (http://flask.pocoo.org/docs/0.11/installation/)
+>>>>>>> 5d619ee06c348a9b7059ee4bce76e3e4e4131c5f
 
 4. Within Teriminal navigate to directory and run python server.py in the Terminal
 
