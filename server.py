@@ -3,7 +3,7 @@ import numpy as np
 import SimpleHTTPServer
 import BaseHTTPServer
 import SocketServer
-
+import cgi
 
 
 from flask import Flask,request, render_template
@@ -61,11 +61,13 @@ def my_link(data):
 	new_samples = np.array(
 	    [ a ], dtype=float)
 	y = classifier.predict(new_samples)
+
 	print ('Health Status: {}'.format(str(y)))
 
 
 
+
   #print request.form
-	return render_template('template1.html')
+	return render_template('template1.html', health = y  )
 if __name__ == '__main__':
   app.run(debug=True)
