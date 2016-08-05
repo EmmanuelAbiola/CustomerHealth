@@ -24,18 +24,8 @@ An example application of Tensorflow API which uses a custom dataset. The data i
 4. Within Teriminal navigate to directory and run python health.py 
 
 
-
-
-
-
-
-1.How to use repository
-2.How to checkout the code
-
-5.Once training is complete how to access health status(cmd line/server)
-
-
 #To-do Items
 -----------------------------------
 1.Prepare and package docker image
+
 2.Implement drag and drop 
