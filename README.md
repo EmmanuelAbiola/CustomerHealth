@@ -1,4 +1,5 @@
 #CustomerHealth Example
+An example application of Tensorflow API which uses a custom dataset. The data is saved as CSV fiels, which are located within the zip file. When the application runs the proccess will print out a Health Status score.
 
 # Building and Running the CustomerHealth(Web App)
 
@@ -30,8 +31,7 @@
 
 1.How to use repository
 2.How to checkout the code
-3.How to start the server
-4.Where is the training data
+
 5.Once training is complete how to access health status(cmd line/server)
 
 
