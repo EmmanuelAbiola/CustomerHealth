@@ -1,6 +1,5 @@
 # Building and Running the CustomerHealth Example
 
-
 1.Download zip folder to your local machine
 
 2. Install Tensorflow 
