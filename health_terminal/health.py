@@ -3,7 +3,7 @@ import numpy as np
 import SimpleHTTPServer
 import BaseHTTPServer
 import SocketServer
-import index.html
+
 
 
 # Data sets
@@ -37,18 +37,6 @@ a = []
 
 
 
-class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
-	def do_GET(s):
-  		s.send_response(200)
-  		s.send_header("Content-type", "text/html")
-  		s.end_headers()
-  		s.wfile.write(GFW_Tensorflow/index.html)
-
-server_class = BaseHTTPServer.HTTPServer
-httpd = server_class(("", 8020), MyHandler)
-httpd.serve_forever()
-
-
 def is_int(val):
 	try:
 		int(val)
@@ -68,16 +56,6 @@ prompts = ["Operational Efficiency: ",
 	]
 
 while len(a) < 8:
-	# val = raw_input("Enter Operational Efficiency: ")
-	# val = raw_input("Enter Adoption Score: ")
-	# val = raw_input("Enter Renewal Risk: ")
-	# val = raw_input("Enter Referenceable: ")
-	# val = raw_input("Transformation Agenda: ")
-	# val = raw_input("Transformation Senior Sponsorship: ")
-	# val = raw_input("Transformation Senior Relationships: ")
-	# val = raw_input("Transformation Senior Partner Services: ")
-	# val = raw_input("Transformation Senior Health Status: ")
-
 	val = raw_input(prompts[len(a)])
 
 	if not val:
